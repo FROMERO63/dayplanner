@@ -1,0 +1,62 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  background-image: linear-gradient(to bottom right, rgb(117, 67, 124) , white,rgb(117, 67, 124));
+  color: rgb(80, 23, 89);
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 50px;
+}
+
+.row {
+  border-top: 1px solid white;
+  color: rgb(80, 23, 89);
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #a29f9f;
+  color: white;
+}
+
+.present {
+  background-color: #debfdf;
+  color: white;
+}
+
+.future {
+  background-color: #9c7ac5;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #467e8a;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
